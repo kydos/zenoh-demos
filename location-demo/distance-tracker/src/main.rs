@@ -7,8 +7,6 @@ use tokio::sync::Mutex;
 use tokio::task;
 use clap::Parser;
 
-// Linear Deformation factor
-
 const EARTH_RADIUS: f32 = 6371.0;
 const MIN_DISTANCE_SCALE: f32 = 1.5_f32;
 const MAX_DISTANCE_SCALE: f32 = 0.75_f32;
